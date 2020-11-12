@@ -1,3 +1,15 @@
+# publish 
+Change  package.json
+```
+"name": "react-json-to-table-tl",
+"version": "0.1.6",
+ ```
+then
+ ```
+$ npm login 
+$ npm publish 
+```
+
 # react-json-to-table
 
 React library to convert JSON to HTML <table>

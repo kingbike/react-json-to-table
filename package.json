@@ -1,6 +1,6 @@
 {
-  "name": "react-json-to-table",
-  "version": "0.1.5",
+  "name": "react-json-to-table-tl",
+  "version": "0.1.6",
   "description": "Convert json to HTML <table>",
   "private": false,
   "main": "build/lib/components/index.js",
@@ -14,17 +14,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thehyve/react-json-to-table.git"
+    "url": "git+https://github.com/kingbike/react-json-to-table.git"
   },
   "author": "Riza Nugraha <rnugraha@gmail.com> (https://about.me/riza.nugraha)",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/thehyve/react-json-to-table/issues"
+    "url": "https://github.com/kingbike/react-json-to-table/issues"
   },
-  "homepage": "https://github.com/thehyve/react-json-to-table#readme",
+  "homepage": "https://github.com/kingbike/react-json-to-table#readme",
   "scripts": {
     "start-js": "react-scripts-ts start",
-    "start": "PORT=3006 npm-run-all -p watch-sass-to-css start-js",
+    "start": "SET PORT=3006 npm-run-all -p watch-sass-to-css start-js",
     "build-js": "react-scripts-ts build",
     "build-app": "npm-run-all -p build-sass-to-css build-js",
     "build": "tsc && npm run build-sass-to-css && npm run copy-css-to-lib",
